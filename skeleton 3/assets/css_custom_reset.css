@@ -15,6 +15,11 @@ ol, ul {
   list-style: none;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 input[type="radio"], select, input[type="submit"] {
   cursor: pointer;
   outline: none;
