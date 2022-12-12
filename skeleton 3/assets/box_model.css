@@ -44,6 +44,12 @@ header > img {
   list-style: square inside;
 }
 
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+
+
 ol {
   list-style: upper-roman inside;
 }
