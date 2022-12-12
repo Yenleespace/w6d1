@@ -20,6 +20,11 @@ nav ul {
   justify-content: space-between;
 }
 
+nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
 input[type="radio"], select, input[type="submit"] {
   cursor: pointer;
   outline: none;
