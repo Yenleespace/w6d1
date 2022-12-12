@@ -4,10 +4,15 @@ header {
   justify-content: space-between;
 }
 
+header img nav ul {
+  display: inline-block;
+}
+
 body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  margin: 0 auto;
 }
 
 h1 {
@@ -71,6 +76,7 @@ input:last-child:hover {
 
 ol li:nth-of-type(2n) {
   background-color: whitesmoke;
+  margin: 10px 0;
 }
 
 h2 + .user_review {
