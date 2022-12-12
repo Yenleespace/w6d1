@@ -48,8 +48,6 @@ header > img {
   margin: 15px 0px;
 }
 
-
-
 ol {
   list-style: upper-roman inside;
 }
@@ -89,3 +87,6 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+label {
+  display: block;
+}
