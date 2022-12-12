@@ -1,4 +1,8 @@
 /* Introduction to Cascading Style Sheets */
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
 body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
@@ -8,6 +12,7 @@ body {
 
 h1 {
   font-size: 38px;
+  margin-bottom: 10px;
 }
 
 h2 {
